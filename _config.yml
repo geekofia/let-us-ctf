@@ -26,8 +26,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: geekofia
 github_username:  geekofia
+timezone: Asia/Kolkata
 
 # Build settings
+encoding: utf-8
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed

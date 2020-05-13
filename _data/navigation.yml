@@ -1,0 +1,8 @@
+
+- name: Latest
+  link: /
+  title: Latest Blog Posts
+
+- name: Categories
+  link: /categories/
+  title: Grouped By Used Categories

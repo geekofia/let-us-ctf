@@ -1,0 +1,12 @@
+@import "fonts.css";
+@import "scrollbar.css";
+@import "style.css";
+
+body {
+    font-family: 'Ubuntu Mono', 'Courier New', Courier, monospace;
+    text-transform: none;
+}
+
+.alert {
+    margin-top: 10px;
+}
