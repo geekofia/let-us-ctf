@@ -5,7 +5,7 @@
 <nav class="navbar">
     <ul class="navbar-nav">
       <li class="logo">
-        <a href="#" class="nav-link">
+        <a href="{{ site.url }}" class="nav-link">
           <span class="link-text logo-text">geekofia</span>
           <svg
             aria-hidden="true"
@@ -33,9 +33,12 @@
         </a>
       </li>
 
+      {% for category in site.categories %}
+      {% assign name = category[0] %}
       <li class="nav-item">
-        <a href="#" class="nav-link">
-          <svg
+        <a href="/categories/{{ name }}/" class="nav-link">
+          <img src="/assets/svgs/{{ name }}.svg" alt="" srcset="">
+          <!-- <svg
             aria-hidden="true"
             focusable="false"
             data-prefix="fad"
@@ -57,12 +60,13 @@
                 class="fa-primary"
               ></path>
             </g>
-          </svg>
-          <span class="link-text">Misc</span>
+          </svg> -->
+          <span class="link-text">{{ name }}</span>
         </a>
       </li>
+      {% endfor %}
 
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a href="#" class="nav-link">
           <svg
             aria-hidden="true"
@@ -205,7 +209,7 @@
           </svg>
           <span class="link-text">Reversing</span>
         </a>
-      </li>
+      </li> -->
       <!-- <li class="nav-item" id="themeButton">
         <a href="#" class="nav-link">
           <svg
