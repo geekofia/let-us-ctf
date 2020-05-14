@@ -1,8 +1,20 @@
+- name: OSINT
+  link: /categories/OSINT/
 
-- name: Latest
-  link: /
-  title: Latest Blog Posts
+- name: misc
+  link: /categories/misc/
 
-- name: Categories
-  link: /categories/
-  title: Grouped By Used Categories
+- name: reverse
+  link: /categories/reverse/
+
+- name: pwn
+  link: /categories/pwn/
+
+- name: crypto
+  link: /categories/crypto/
+
+- name: web
+  link: /categories/web/
+
+- name: mobile
+  link: /categories/mobile/
