@@ -2,11 +2,25 @@
 @import "scrollbar.css";
 @import "style.css";
 
+:root {
+    --color-body-bg: #1E2125;
+    --color-body-txt: #FFFFFF;
+    --chall-desc-txt: #949BA2;
+}
+
 body {
     font-family: 'Ubuntu Mono', 'Courier New', Courier, monospace;
     text-transform: none;
+    background-color: var(--color-body-bg);
+    color: var(--color-body-txt);
+    font-size: 1.3rem;
 }
 
 .alert {
     margin-top: 10px;
+}
+
+.content {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

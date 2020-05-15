@@ -61,13 +61,12 @@ collections:
     output: true
 
 defaults:
-  # - scope:
-  #     path: ""
-  #     type: "posts"
-  #   values:
-  #     layout: "post"
   - scope:
       path: ""
       type: category
     values:
       layout: "category"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

@@ -2,12 +2,18 @@
 layout: default
 ---
 
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/assets/css/category.css">
+
 <div>
-    <h1>
+    <h1 class="cat-header">
         <small>
-            # {{ page.folder }}
+            <g>[</g><img src="/assets/svgs/{{ page.folder }}.svg" alt="" srcset="" class="cat-logo"> {{ page.folder }}<g>]</g>
+            <button type="button" class="btn btn-primary" onclick="alert('k0miN\' 500N!')">Solve Challenges</button>
         </small>
     </h1>
+
+    {{ content }}
 
     {% include category_post.html %}
 
