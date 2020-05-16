@@ -34,12 +34,12 @@ Let's take a look into the most popular OSINT techniques used in cybersecurity:
 
 Quite simply, it all starts with Google. The hacking techniques commonly referred to as `Google Dorks` are simple yet effective ways to use the most popular search engine on earth for OSINT purposes. This is done thanks to users exposing sensitive information by accident, leaving unprotected data, variables, databases and codes ready for crawling by Google.
 
-Therefore, the only thing we need is to begin querying Google with a few basic search operators. For example if we use `site:anysite.com`, we'll find all the results related to a specific website. If we use `filetype:`, it will show only the results from specific types of files. We can also combine both search.
+Therefore, the only thing we need is to begin querying Google with a few basic search operators. For example if we use `site:<website_name>`, we'll find all the results related to a specific website. If we use `filetype:<file_type>`, it will show only the results from specific types of files. We can also combine both search.
 
 To search for `.sql` databases, for example, we can do this:
 
 ```txt
-filetype:sql site:anysite.com
+filetype:sql site:<website_name>
 ```
 
 And we'll get precise results like shown below:

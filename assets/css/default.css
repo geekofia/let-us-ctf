@@ -32,6 +32,8 @@ ul {
 
 p {
     color: var(--color-body-txt);
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .alert {
@@ -83,3 +85,21 @@ code.highlighter-rouge {
     padding: 10px;
     background: #FFFFFF;
 } */
+
+.head-slogan h1 {
+    background: -webkit-linear-gradient(#96c93d, #00b09b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+/* .head-slogan h2 {
+    color: #00FF00;
+} */
+
+.head-slogan h2::before {
+    content: "";
+}
