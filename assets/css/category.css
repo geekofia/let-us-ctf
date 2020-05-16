@@ -2,31 +2,12 @@ g {
     color: #00FF00;
 }
 
-h2:before {
-    content: "# ";
-    color: #00FF00;
-}
-
 img.cat-logo {
     width: 2rem;
 }
 
 .cat-header {
     margin-bottom: 30px;
-}
-
-code.highlighter-rouge {
-    color: #000;
-    padding: 2px 5px !important;
-    background: #EEEEEE !important;
-    border-radius: 5px !important;
-}
-
-pre {
-    border: none !important;
-    border-radius: 5px;
-    padding: 10px;
-    background: #FFFFFF;
 }
 
 /* .highlight {
@@ -45,11 +26,3 @@ pre {
 .align-center img {
     padding: 50px 20px 50px 20px;
 } */
-
-.centered-image-wrapper {
-    text-align: center;
-}
-
-.centered-image-wrapper img {
-    border: 2px solid blue;
-}

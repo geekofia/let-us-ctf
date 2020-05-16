@@ -1,6 +1,9 @@
 - name: OSINT
   link: /categories/OSINT/
 
+- name: crypto
+  link: /categories/crypto/
+
 - name: misc
   link: /categories/misc/
 
@@ -9,9 +12,6 @@
 
 - name: pwn
   link: /categories/pwn/
-
-- name: crypto
-  link: /categories/crypto/
 
 - name: web
   link: /categories/web/

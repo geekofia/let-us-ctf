@@ -200,3 +200,7 @@
 .solar #solarIcon {
   display: block;
 }
+
+ul {
+  list-style: none;
+}

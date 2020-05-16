@@ -1,0 +1,85 @@
+@import "fonts.css";
+@import "scrollbar.css";
+@import "prism.css";
+
+:root {
+    --color-body-bg: #1E2125;
+    --color-body-txt: #b7b9bb;
+    --chall-desc-txt: #949BA2;
+}
+
+body {
+    font-family: 'Ubuntu Mono', 'Courier New', Courier, monospace;
+    text-transform: none;
+    background-color: var(--color-body-bg);
+    color: var(--color-body-txt);
+    font-size: 1.3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+.content li::before {
+    color: #a494ff;
+    font-size: 1.5rem;
+    content: "→ ";
+}
+
+p {
+    color: var(--color-body-txt);
+}
+
+.alert {
+    margin-top: 10px;
+}
+
+.content {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.content h2:before {
+    content: "# ";
+    color: #00FF00;
+}
+
+.content h3:before {
+    content: "## ";
+    color: #00FF00;
+}
+
+.content h4:before {
+    content: "■ ";
+    color: #00FF00;
+}
+
+.content h2, .content h3 {
+    margin-bottom: 1rem;
+}
+
+.centered-image-wrapper {
+    text-align: center;
+}
+
+/* .centered-image-wrapper img {
+    border: 2px solid blue;
+} */
+
+code.highlighter-rouge {
+    color: var(--color-p-txt);
+    padding: 5px 10px !important;
+    background: rgb(0, 0, 0) !important;
+    /* border-radius: 5px !important; */
+}
+
+/* pre {
+    border: none !important;
+    border-radius: 5px;
+    padding: 10px;
+    background: #FFFFFF;
+} */

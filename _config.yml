@@ -59,6 +59,8 @@ markdown: kramdown
 collections:
   category:
     output: true
+  sub-categories:
+    output: true
 
 defaults:
   - scope:
@@ -66,6 +68,11 @@ defaults:
       type: category
     values:
       layout: "category"
+  # - scope:
+  #     path: ""
+  #     type: sub-categories
+  #   values:
+  #     layout: "posts"
   - scope:
       path: ""
     values:
