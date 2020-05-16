@@ -3,7 +3,7 @@ folder: crypto
 permalink: /categories/crypto/
 ---
 
-## What is Cryptography ?
+# What is Cryptography ?
 
 Cryptography is a method of protecting information and communications through the use of codes. The prefix "crypt-" means "hidden" or "vault" -- and the suffix "-graphy" stands for "writing."
 
@@ -25,10 +25,11 @@ The word “cryptography” technically means the art of writing codes. When it 
 Below are some important topics in crypto. Those are written separately and linked here for better understanding.
 
 - [XOR](/sub-categories/xor)
-- [Caesar Cipher/ROT 13](/sub-categories/caesar-cipher)
-- Substitution Cipher
-- Vigenere Cipher
-- Hashing Functions
+- [Ciphers](/sub-categories/ciphers)
+  - Caesar Cipher/ROT 13
+  - Substitution Cipher
+  - Vigenere Cipher
+- [Hashing Functions](/sub-categories/hashing-functions)
 - Block Ciphers
 - Stream Ciphers
 - RSA
