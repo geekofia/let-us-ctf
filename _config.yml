@@ -73,7 +73,3 @@ defaults:
   #     type: sub-categories
   #   values:
   #     layout: "posts"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
