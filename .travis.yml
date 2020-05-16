@@ -10,7 +10,6 @@ rvm:
 
 script:
   - gem install bundler:2.1.4
-  - gem install jekyll
   - bundle update --bundler
 # - if [[ "$TRAVIS_COMMIT_MESSAGE" =~ "New-Post" ]]; then export PUSH_NOTIFICATION="yes";
 #   else export PUSH_NOTIFICATION="no"; fi
