@@ -1,0 +1,5 @@
+<ul class="cat-challs-list">
+    {% for challenge in site.categories[page.folder] %}
+        {% include chall_list.html %}
+    {% endfor %}
+</ul>

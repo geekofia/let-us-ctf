@@ -5,7 +5,7 @@ layout: default
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="/assets/css/category.css">
 
-<div>
+<div class="cat-div">
     <h1 class="cat-header">
         <small>
             <g>[</g><img src="/assets/svgs/{{ page.folder }}.svg" alt="" srcset="" class="cat-logo"> {{ page.folder }}<g>]</g>
@@ -14,7 +14,4 @@ layout: default
     </h1>
 
     {{ content }}
-
-    {% include category_post.html %}
-
 </div>

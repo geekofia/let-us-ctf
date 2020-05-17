@@ -26,3 +26,35 @@ img.cat-logo {
 .align-center img {
     padding: 50px 20px 50px 20px;
 } */
+
+.cat-div h1,
+.cat-div h2,
+.cat-div h3,
+.cat-div h4,
+.cat-div h5,
+.cat-div h6 {
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.cat-div li::before {
+    color: #a494ff;
+    font-size: 1.5rem;
+    content: "→ ";
+}
+
+
+.cat-div h2::before {
+    content: "# ";
+    color: #00FF00;
+}
+
+.cat-div h3::before {
+    content: "## ";
+    color: #00FF00;
+}
+
+.cat-div h4::before {
+    content: "■ ";
+    color: #00FF00;
+}

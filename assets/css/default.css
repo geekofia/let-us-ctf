@@ -1,7 +1,6 @@
 @import "fonts.css";
 @import "scrollbar.css";
 @import "prism.css";
-
 :root {
     --color-body-bg: #1E2125;
     --color-body-txt: #b7b9bb;
@@ -16,18 +15,8 @@ body {
     font-size: 1.3rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #FFFFFF;
-}
-
 ul {
     list-style: none;
-}
-
-.content li::before {
-    color: #a494ff;
-    font-size: 1.5rem;
-    content: "→ ";
 }
 
 p {
@@ -42,26 +31,6 @@ p {
 
 .content {
     padding-top: 1rem;
-    padding-bottom: 3rem;
-}
-
-.content h2:before {
-    content: "# ";
-    color: #00FF00;
-}
-
-.content h3:before {
-    content: "## ";
-    color: #00FF00;
-}
-
-.content h4:before {
-    content: "■ ";
-    color: #00FF00;
-}
-
-.content h2, .content h3 {
-    margin-bottom: 1rem;
 }
 
 .centered-image-wrapper {
@@ -113,4 +82,26 @@ code.highlighter-rouge {
         transform: translate(0%, 50%);
         transition: ease-in 0.5s;
     }
-  }
+
+    .content {
+        padding-bottom: 3rem;
+    }
+}
+
+.chall-header h3{
+    display: inline;
+}
+
+.chall-header h3 i{
+    padding-top: 0.25rem;
+    float: right;
+}
+
+.chall-header h3 i:hover{
+    color: #00FF00;
+}
+
+.chall-wrapper {
+    display: none;
+}
+

@@ -13,6 +13,7 @@
   transition: width 600ms ease;
   overflow-y: auto;
   overflow-x: hidden;
+  z-index: 1024;
 }
 
 .navbar-nav {

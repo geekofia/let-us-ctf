@@ -61,6 +61,10 @@ collections:
     output: true
   sub-categories:
     output: true
+  challs:
+    output: true
+  challenges:
+    output: true
 
 defaults:
   - scope:
@@ -68,8 +72,8 @@ defaults:
       type: category
     values:
       layout: "category"
-  # - scope:
-  #     path: ""
-  #     type: sub-categories
-  #   values:
-  #     layout: "posts"
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: "posts"
