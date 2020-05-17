@@ -11,7 +11,13 @@
                 </div>
             </div>
             <div class="chall-wrapper">
-                <p class="card-text">{{ challenge.content }}</p>
+                <p class="card-text">
+                    {% if challenge.content contains '<!--walkthrough-->' %}
+                        {{ challenge.content | split:'<!--walkthrough-->' | first }}
+                    {% else %}
+                        {{ challenge.content }}
+                    {% endif %}
+                </p>
                 <div class="form-row align-items-center">
                     <div class="col-md-6 mb-3">
                         <label class="sr-only" for="flag">Flag</label>
@@ -29,6 +35,7 @@
                         <button class="btn btn-primary mb-2 submit" flag="{{ challenge.flag }}">Submit</button>
                     </div>
                 </div>
+                <a href="{{ challenge.url }}" class="btn btn-info">walkthrough</a>
             </div>
         </div>
     </div>
