@@ -1,13 +1,10 @@
-g {
-    color: #00FF00;
-}
 
 img.cat-logo {
     width: 2rem;
 }
 
 .cat-header {
-    margin-bottom: 30px;
+    margin-bottom: 2rem !important;
 }
 
 /* .highlight {

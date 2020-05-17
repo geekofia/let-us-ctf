@@ -3,7 +3,7 @@ folder: crypto
 permalink: /categories/crypto/
 ---
 
-# What is Cryptography ?
+## What is Cryptography ?
 
 Cryptography is a method of protecting information and communications through the use of codes. The prefix "crypt-" means "hidden" or "vault" -- and the suffix "-graphy" stands for "writing."
 

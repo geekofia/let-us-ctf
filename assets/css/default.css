@@ -1,5 +1,5 @@
 @import "fonts.css";
-@import "scrollbar.css";
+@import "custom.css";
 @import "prism.css";
 :root {
     --color-body-bg: #1E2125;
@@ -94,6 +94,10 @@ code.highlighter-rouge {
     .content {
         padding-bottom: 3rem;
     }
+
+    .chall-header .level {
+        display: block;
+    }
 }
 
 .chall-header h3{
@@ -103,6 +107,7 @@ code.highlighter-rouge {
 .chall-header h3 i{
     padding-top: 0.25rem;
     float: right;
+    margin-left: 1rem;
     transition: all .2s ease-in-out;
 }
 
@@ -151,4 +156,20 @@ code.highlighter-rouge {
 .cat-challs-list h5::before,
 .cat-challs-list h6::before {
     content: "";
+}
+
+g {
+    color: #00FF00;
+}
+
+.chall-header .date{
+    float: right;
+}
+
+.chall-header .level {
+    display: inline;
+}
+
+.flag-invalid {
+    display: none;
 }
