@@ -11,8 +11,8 @@
   position: fixed;
   background-color: var(--color-nav-bg);
   transition: width 600ms ease;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow-x: auto;
   z-index: 1024;
 }
 
@@ -116,7 +116,8 @@
 @media only screen and (max-width: 600px) {
   .navbar {
     bottom: 0;
-    height: 3rem;
+    width: 100vw;
+    height: 4rem;
     padding: 0rem 0.2rem !important;
   }
 
@@ -201,6 +202,6 @@
   display: block;
 }
 
-ul {
-  list-style: none;
+.navbar li::before{
+  content: "";
 }
