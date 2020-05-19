@@ -8,13 +8,25 @@ The Caesar Cipher or Caesar Shift is a cipher which uses the alphabet in order t
 
 `CAESAR` encoded with a shift of 8 is `KIMAIZ` so `ABCDEFGHIJKLMNOPQRSTUVWXYZ` becomes `IJKLMNOPQRSTUVWXYZABCDEFGH`.
 
-`ROT13` is a special case of Caesar Cipher which has a fixed shift of 13, this is a trivial cipher to bruteforce because there are only 25 shifts. So the code to encode plain text to ROT13 can be used to decode the cipher text.
+`ROT13` is a special case of Caesar Cipher which has a fixed shift of 13, this is a trivial cipher to bruteforce because there are only 25 shifts. So the code to encode plain text to ROT13 can be used to decode the cipher text (NOT in other cases, will discuss below).
 
 {:.table .table-dark .table-striped .table-bordered}
 A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z
 M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z | A | B | C | D | E | F | G | H | I | J | K | L
 
 with Caesar Cipher shift 13 (ROT 13), `HI WORLD` will be ecnoded to `TU IADXP`.
+
+So, if the shift is `1` then it'll bw `ROT1` and so on. In any `ROT<x>` each letter is shifted `x` places. We can use [rot13.com](https://rot13.com/) to encode/decode `ROT<x>`. I'll add a python script for local use later !
+
+{:.note .g}
+If a `ROTx` encoded text (cipher) is once again encrypted using `ROTy`, then the decoding process will start from last (outer most encryption). And the value of `ROT<x>` will be the difference between `26` and the `value used to encrypt`, in this case `ROT{26 - y}` => `ROT{26 - x}` respectively.
+
+Let's see and example,
+
+```txt
+HELLO =(enc)(ROT13)=> URYYB =(enc)(ROT25)=> TQXXA
+HELLO <=(dec)(ROT13)= URYYB <=(dec)(ROT1)= TQXXA
+```
 
 ## Substitution Cipher
 

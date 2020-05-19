@@ -30,6 +30,6 @@ Below are some important topics in crypto. Those are written separately and link
   - Substitution Cipher
   - Vigenere Cipher
 - [Hashing Functions](/sub-categories/hashing-functions)
-- Block Ciphers
-- Stream Ciphers
-- RSA
+- [Block Ciphers](https://ctf101.org/cryptography/what-are-block-ciphers/)
+- [Stream Ciphers](https://ctf101.org/cryptography/what-are-stream-ciphers/)
+- [RSA](https://ctf101.org/cryptography/what-is-rsa/)
