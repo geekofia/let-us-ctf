@@ -1,6 +1,7 @@
 ---
 folder: OSINT
 permalink: /categories/OSINT/
+full_name: Open-source Intelligence
 ---
 
 ## What is OSINT ?

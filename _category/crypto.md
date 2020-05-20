@@ -1,6 +1,7 @@
 ---
 folder: crypto
 permalink: /categories/crypto/
+full_name: Cryptography
 ---
 
 ## What is Cryptography ?
