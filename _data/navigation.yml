@@ -1,0 +1,20 @@
+- name: OSINT
+  link: /categories/OSINT/
+
+- name: crypto
+  link: /categories/crypto/
+
+- name: misc
+  link: /categories/misc/
+
+- name: pwn
+  link: /categories/pwn/
+
+- name: mobile
+  link: /categories/mobile/
+
+- name: forensics
+  link: /categories/forensics/
+
+- name: web
+  link: /categories/web/

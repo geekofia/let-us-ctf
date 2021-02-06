@@ -1,0 +1,9 @@
+/** import fonts **/
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url('../fonts/UbuntuMono/UbuntuMono-Regular.ttf') format('truetype'),
+         url('../fonts/UbuntuMono/UbuntuMono-Bold.ttf') format('truetype'),
+         url('../fonts/UbuntuMono/UbuntuMono-Italic.ttf') format('truetype'),
+         url('../fonts/UbuntuMono/UbuntuMono-BoldItalic.ttf') format('truetype');
+}

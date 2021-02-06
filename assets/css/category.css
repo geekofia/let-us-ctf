@@ -1,0 +1,31 @@
+
+img.cat-logo {
+    width: 2rem;
+}
+
+.cat-header {
+    margin-bottom: 2rem !important;
+}
+
+/* .highlight {
+    border: none !important;
+    border-radius: 5px;
+} */
+
+.badge {
+    font-size: 1em;
+}
+
+/* .align-center {
+    text-align: center;
+}
+
+.align-center img {
+    padding: 50px 20px 50px 20px;
+} */
+
+/* .cat-div li::before {
+    color: #a494ff;
+    font-size: 1.5rem;
+    content: "→ ";
+} */

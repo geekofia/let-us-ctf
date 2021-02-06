@@ -1,0 +1,7 @@
+<ul class="cat-challs-list">
+    {% for challenge in site.categories[page.folder] %}
+        {% include chall_list.html %}
+    {% endfor %}
+</ul>
+
+<div id="snackbar">Incorrect Flag ;(<br>Try Harder ...</div>
