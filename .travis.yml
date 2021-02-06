@@ -16,7 +16,6 @@ script:
 
 deploy:
   provider: pages
-  fqdn: ctf.geekofia.in
   skip_cleanup: true
   github_token: "$GH_TOKEN"
   keep_history: true
